@@ -1,2 +1,3 @@
-# digital-simulated-dev-log
-digital-simulated的开发日志
+# 数字电路模拟开发日志
+
+

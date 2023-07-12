@@ -22,7 +22,7 @@
 // 伪代码
 
 // 根据电路结构和输入模拟输出
-const simulate = (circuit, input) => {
+const simulate = (circuit, input) => 
   circuit.map(logate => {
     if (logate is input) { // 如果是电路输入
       const { index } = logate;
@@ -31,8 +31,8 @@ const simulate = (circuit, input) => {
       const { eval, in } = logate; // 直接使用逻辑门本身的计算函数
       return eval(simulate(in, input));
     }
-  })
-}
+  });
+
 ```
 
 ``` Haskell
